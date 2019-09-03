@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
 
 html {
-    background: url(images/wallpaper.jpg) no-repeat center center fixed;
+    background: url(images/spam1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,6 +24,12 @@ p {
     text-align: left;
 }
 
+div#finalslide {
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Neucha';
+}
+
 pre {
     text-align: left;
 }
@@ -42,11 +48,23 @@ ul {
     list-style-position: inside;
 }
 
-li {
-    margin-bottom: 0.3em;
-    margin-top: 0.3em;
-    padding-left: 0.3em;
-    line-height: 1.5em;
+ol {
+    list-style-position: inside;
+}
+
+ul li {
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    padding-left: 0.2em;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+ol li {
+    margin-bottom: 0.0em;
+    margin-top: 0.0em;
+    padding-left: 0.2em;
+    line-height: 1.0em;
     text-align: left;
 }
 
@@ -64,4 +82,13 @@ a {
     position: absolute;
     top: 95%;
     font-size: 50%;
+}
+
+.codeblock {
+    font-family: 'monospace';
+    font-size: 50%;
+    text-align: left;
+    background: #DDD;
+    padding: 10px;
+    border: 2px solid black;
 }
